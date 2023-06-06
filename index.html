@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  
+    <div class="frame">
+    <input type="text" value="0" id="display">
+        <div class="buttons">
+            <button class="numbers fontSize" onclick="reset()">CE</button>
+            <button class="numbers fontSize" onclick="deleteValue()">⟵</button>
+            <button class="numbers fontSize" onclick="percent()">%</button>
+            <button class="symbols fontSize" onclick="multiplication()">×</button>
+            <button class="numbers fontSize" onclick="numbers(1)">1</button>
+            <button class="numbers fontSize" onclick="numbers(2)">2</button>
+            <button class="numbers fontSize" onclick="numbers(3)">3</button>
+            <button class="symbols fontSize" onclick="plus()">+</button>
+            <button class="numbers fontSize" onclick="numbers(4)">4</button>
+            <button class="numbers fontSize" onclick="numbers(5)">5</button>
+            <button class="numbers fontSize" onclick="numbers(6)">6</button>
+            <button class="symbols fontSize" onclick="minus()">-</button>
+            <button class="numbers fontSize" onclick="numbers(7)">7</button>
+            <button class="numbers fontSize" onclick="numbers(8)">8</button>
+            <button class="numbers fontSize" onclick="numbers(9)">9</button>
+            <button class="symbols fontSize" onclick="division()">/</button>
+            <button class="numbers fontSize doubleZero" onclick="doubleZero()">00</button>
+            <button class="numbers fontSize" onclick="numbers(0)">0</button>
+            <button class="point fontSize" onclick="point()">.</button>
+            <button class="result fontSize" onclick="result()">=</button>
+        </div>
+    </div>
+    <input type="text" value="0" id="display2">    
+    <script src="js/index.js"></script>
+</body>
+</html>

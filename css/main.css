@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.frame{
+    border: 2px solid #000;
+    width: 319px;
+    height: 529px;
+    padding: 5px;
+}
+
+.buttons{
+    border: 4px solid #000;
+    display: block;
+    margin-top: 5px;
+    width: 293px;
+    padding: 8px;
+}
+
+.fontSize{
+    font-size: 40px;
+    width: 60px;
+    height: 70px;
+    padding-bottom: 5px;
+}
+
+.numbers{
+
+    margin: 5px;
+}
+
+.result{
+    
+    margin: 5px;
+}
+
+.point{
+    
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.symbols{
+    
+    margin: 5px;
+}
+
+#display{
+    border: 4mm ridge rgba(211, 206, 206, .6);
+    padding: 3px;
+    width: 282px;
+    display: block;
+    text-align: right;
+    font-size: 40px;
+}
+
+#display2{
+    display: block;
+    border: none;
+}
+
+.back{
+    font-size: 40px;
+    width: 60px;
+    height: 70px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+
+.doubleZero{
+    text-align: center;
+}
+
